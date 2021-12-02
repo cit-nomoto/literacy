@@ -1,0 +1,27 @@
+/*最初にすべてのマージンを0にして*/
+*{
+    padding: 0px;
+    margin:0px;
+}
+
+#outer {
+    background:black;
+    width: 225px;
+    height:225px;
+
+    border: 20px yellow solid;
+    margin: 20px;
+    padding: 0px;
+  }
+
+  #inner {
+    background:red;
+    width:100px;
+    height:100px;
+
+    border: 50px blue solid;
+    border-radius:152px;
+
+    margin:0px;
+    padding:12px;
+  }
